@@ -2,7 +2,7 @@ const LOAD_SONGS = 'LOAD_SONGS';
 
 const initialState = [];
 
-const songsUrl = 'https://api.deezer.com/chart/0/tracks';
+const songsUrl = 'https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/tracks';
 // const songDataUrl = 'https://api.deezer.com/chart/0/tracks/:id';
 // const albumDataUrl = 'https://api.deezer.com/album/:id';
 // const searchUrl = 'https://api.deezer.com/search?q=eminem';
